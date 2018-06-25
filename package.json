@@ -1,0 +1,28 @@
+{
+  "name": "skyScraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awsmith89/skyScraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awsmith89/skyScraper/issues"
+  },
+  "homepage": "https://github.com/awsmith89/skyScraper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.11",
+    "mongoose": "^5.1.6",
+    "request": "^2.87.0"
+  }
+}
